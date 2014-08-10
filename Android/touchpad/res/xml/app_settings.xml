@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Nwtwork Settings" >
+        <Preference 
+          android:title="Application Port" 
+      	  android:defaultValue="8888"
+      	  android:key="PORT_NUMBER_FEILD"
+      	  android:summary="Default Port is 8888."
+   		 />
+          <Preference 
+            android:title="Target IPv4 Address" 
+            android:defaultValue="192.168.43.8"
+            android:key="IP_ADDRESS_FEILD"
+            android:summary="Set the target computer's IPv4 Address."
+        />
+    </PreferenceCategory>
+    
+     <PreferenceCategory android:title="Smooth Settings" >
+     
+        <Preference 
+            android:title="Sensitivity" 
+            android:defaultValue="1"
+            android:key="SENSITIVITY"
+            android:summary="Increase this value to make touch more sensible."/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="About" >
+        <Preference 
+            android:title="About" 
+            android:defaultValue="false"
+            android:summary="Know about the Application."
+        />
+        <Preference 
+            android:title="Vihang Patel" 
+            android:defaultValue="false"
+            android:summary="Know about the Author."/>
+    </PreferenceCategory>
+    
+   
+
+</PreferenceScreen>
